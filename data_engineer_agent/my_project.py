@@ -121,7 +121,7 @@ with tab2:
 
     # Load your local HTML file from text-comparison-tool folder
     try:
-        with open("text-comparison-tool/index.html", "r", encoding="utf-8") as f:
+        with open("data_engineer_agent/text-comparison-tool/index.html", "r", encoding="utf-8") as f:
             html_code = f.read()
         components.html(html_code, height=800, scrolling=True)
     except FileNotFoundError:
